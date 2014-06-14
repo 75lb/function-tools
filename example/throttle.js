@@ -1,6 +1,6 @@
 var f = require("../");
 
-/* testFunc should be called maximum every 100ms */
+/* testFunc should be called maximum every 200ms */
 var lastRun = Date.now();
 function testFunc(n){
     console.log("%d: %d", n, Date.now() - lastRun);
@@ -9,7 +9,7 @@ function testFunc(n){
 
 var throttled = f.throttle(testFunc, { restPeriod: 200 });
 
-/* call the throttled testFunc 20 times */
+/* call the throttled testFunc 30 times */
 var i = 0;
 var interval = setInterval(function(){
     throttled(++i);
