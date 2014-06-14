@@ -7,11 +7,11 @@ function testFunc(n){
     lastRun = Date.now();
 }
 
-var throttled = f.throttle(testFunc, { restPeriod: 100 });
+var throttled = f.throttle(testFunc, { restPeriod: 200 });
 
 /* call the throttled testFunc 20 times */
 var i = 0;
 var interval = setInterval(function(){
     throttled(++i);
-    if (i === 20) clearInterval(interval);
+    if (i === 30) clearInterval(interval);
 }, 10);
