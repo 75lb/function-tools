@@ -8,7 +8,7 @@
   "bin": {
     "function-tools": "bin/cli.js"
   },
-  "keywords": [],
+  "keywords": [ "throttle" ],
   "engines": {
     "node": ">=0.10.0"
   },
