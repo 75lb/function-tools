@@ -1,3 +1,4 @@
+"use strict";
 var f = require("../");
 
 /* testFunc should be called maximum every 200ms */

@@ -3,44 +3,23 @@
 [![Build Status](https://travis-ci.org/75lb/function-tools.svg?branch=master)](https://travis-ci.org/75lb/function-tools)
 [![Dependency Status](https://david-dm.org/75lb/function-tools.svg)](https://david-dm.org/75lb/function-tools)
 
-
+<a name="module_function-tools"></a>
 #function-tools
 Useful higher-order functions
 
-
-
-
-
-
-
-
-
-**Contents**
-* [throttle(f, options)](#module_function-tools.throttle)
-
-
-
-
-
-
+**Example**  
+```js
+var f = require("function-tools");
+```
 
 <a name="module_function-tools.throttle"></a>
-###f.throttle(f, options)
+##f.throttle(f, [options])
 Guarantees a function a specified `restPeriod` in between invocations.
 
+**Params**
 
-- f `function` the function to throttle  
-- options `Object` options  
+- f `function` - the function to throttle  
+- \[options\] `Object` - the options  
+  - \[restPeriod\] `number` - a value in ms  
 
-
-**Returns**: `function`
-
-
-
-
-
-
-
-
-
-
+**Returns**: `function`  
