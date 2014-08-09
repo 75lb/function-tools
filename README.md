@@ -23,3 +23,9 @@ Guarantees a function a specified `restPeriod` in between invocations.
   - \[restPeriod\] `number` - a value in ms  
 
 **Returns**: `function`  
+**Example**  
+```js
+var throttled = f.throttle(myFunction, { restPeriod: 200 });
+throtted(); // this will only execute if at least 200ms since the last invocation
+```
+
