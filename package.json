@@ -5,22 +5,19 @@
   "description": "Useful higher-order functions",
   "repository": "https://github.com/75lb/function-tools.git",
   "main": "./lib/function-tools.js",
-  "bin": {
-    "function-tools": "bin/cli.js"
-  },
+  "license": "MIT",
   "keywords": [
-    "throttle"
+    "throttle", "function"
   ],
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
     "test": "tape test/*.js",
-    "lint": "jshint lib/*.js bin/*.js test/*.js; echo",
     "docs": "jsdoc2md -t jsdoc2md/README.hbs lib/*.js > README.md; echo"
   },
   "devDependencies": {
-    "jsdoc-to-markdown": "^0.5",
-    "tape": "^2.13.3"
+    "jsdoc-to-markdown": "^1.2",
+    "tape": "^4"
   }
 }
