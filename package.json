@@ -1,13 +1,14 @@
 {
   "name": "function-tools",
   "author": "Lloyd Brookes <75pound@gmail.com>",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Useful higher-order functions",
   "repository": "https://github.com/75lb/function-tools.git",
   "main": "./lib/function-tools.js",
   "license": "MIT",
   "keywords": [
-    "throttle", "function"
+    "throttle",
+    "function"
   ],
   "engines": {
     "node": ">=0.10.0"
